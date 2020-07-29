@@ -573,7 +573,7 @@ img{
 		margin: 0px -20px
 	}
 	.container {
-		margin: 3% 0% 0 10%;
+		margin: 3% 0 0 10%;
 	}
 }
 
@@ -581,6 +581,9 @@ img{
 {	
 	.form-control {
 		margin: 0px -40px
+	}
+	.container {
+		margin: 3% -10% 0 10%;
 	}
 	
 }
