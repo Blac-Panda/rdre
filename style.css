@@ -178,6 +178,7 @@ label {
 	margin-right: -10px;
 	margin-bottom: 10.7px;
 	z-index: 1000;
+	text-align: center;
 }
 form{
 	background-image: url('images/bg-shorten-desktop.svg');
@@ -541,10 +542,10 @@ img{
 	   margin-left: 0;
 	   padding: 0;
 	   }
-	   .shorten-overlay{
-		padding: 14px 5px;
-		margin-bottom: 10.9px;
-	   }
+	.shorten-overlay{
+	padding: 14px 5px;
+	margin-bottom: 10.9px;
+	}
 	.footer{
 	   flex-direction: column;
 	   justify-content: center;
@@ -558,6 +559,28 @@ img{
 @media screen and (max-width: 587px)
 {	
 	.form-control input{
-		padding: 16px 5px;;
+		padding: 16px 5px;
+		letter-spacing: 0;
 	}
+	.shorten-overlay{
+		letter-spacing: 0;
+	}
+}
+
+@media screen and (max-width: 375px)
+{	
+	.form-control {
+		margin: 0px -20px
+	}
+	.container {
+		margin: 3% 0% 0 10%;
+	}
+}
+
+@media screen and (max-width: 320px)
+{	
+	.form-control {
+		margin: 0px -40px
+	}
+	
 }
