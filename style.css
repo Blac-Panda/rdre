@@ -158,7 +158,11 @@ label {
 .header-text .btn-header:hover{
 	background-color: #48dbfb;
 	transition: all 1s;
-    } 
+	} 
+/* .section-1{
+    display: flex;
+    margin: 5% 10%;
+} */
 
 /*shorten-link*/
 
@@ -567,13 +571,30 @@ img{
 	}
 }
 
+@media screen and (max-width: 1024px) and (min-width: 768px)
+{	
+	.advanced-content{
+		height: auto;
+		}
+	.advanced-content::before{
+		transform: rotate(90deg);
+	}
+	.advanced{
+		margin: 30px;
+	}
+}
+
+@media screen and (max-width: 425px)
+{	
+	body{
+		width: min-content;
+	}
+}
+
 @media screen and (max-width: 375px)
 {	
 	.form-control {
 		margin: 0px -20px
-	}
-	.container {
-		margin: 3% 0 0 10%;
 	}
 }
 
@@ -581,9 +602,6 @@ img{
 {	
 	.form-control {
 		margin: 0px -40px
-	}
-	.container {
-		margin: 3% -10% 0 10%;
 	}
 	
 }
