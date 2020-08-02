@@ -44,7 +44,7 @@
 			<input type="text" placeholder="Name" />
 			<input type="email" placeholder="Email" />
 			<input type="password" placeholder="Password" />
-            <button>Sign Up</button>
+            <button  onclick="yetToLaunch()">Sign Up</button>
             <p class="overlay-replace">Existing user? <span onClick="hideSignUp()">Sign In</span></p>
 		</form>
 	</div>
@@ -60,7 +60,7 @@
 			<input type="email" placeholder="Email" />
 			<input type="password" placeholder="Password" />
 			<a href="#">Forgot your password?</a>
-			<button>Sign In</button>
+			<button  onclick="yetToLaunch()">Sign In</button>
             <p class="overlay-replace">New user? <span onClick="showSignUp()">Sign Up</span></p>
 		</form>
 	</div>
@@ -109,6 +109,10 @@
     function hideSignUp ()  {
         signUpContainer.style.zIndex = "2";
         signUpContainer.style.opacity = "0";
+    }
+
+    function yetToLaunch() {
+    alert("Keep calm and give us some time, this feature is yet to launch");
     }
 </script>
 </body>
