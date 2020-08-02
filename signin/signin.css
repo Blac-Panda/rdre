@@ -359,14 +359,11 @@ footer a {
 		text-align: right;
 		font-size: 35px;
 		justify-content: space-between;
-		background-image: url('images/rdre.png');
+		background-image: url('../images/rdre.png');
 		background-repeat: no-repeat;
 		background-position: left center;
 		background-size: contain;
 		}
-	header{
-    	/* padding: 0 10vw; */
-	}
 	body{
 		height: unset;
 		align-items: unset;
